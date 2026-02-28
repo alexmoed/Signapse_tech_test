@@ -1,0 +1,7 @@
+{
+  "lpips_mean": 0.2029307845234871,
+  "lpips_std": 0.04831491587788683,
+  "lpips_median": 0.2006121650338173,
+  "num_test_images": 50,
+  "checkpoint": "output_v5/checkpoints/model_5000.pkl"
+}
