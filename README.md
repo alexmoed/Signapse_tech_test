@@ -2,11 +2,9 @@
 
 Technical test submission for the Signapse Computer Vision Research Engineer position. The approach adapts SD-Turbo with LoRA fine-tuning, following the pix2pix-turbo architecture. It is trained on synthetically degraded CelebA-HQ faces as a proxy for Gaussian splat avatar renders.
 
-**AI tools used**: Claude Opus 4.6 (Anthropic)
-
 ## Results
 
-**Test set LPIPS: 0.203** (mean across 50 held-out test images, lower is better)
+**Test set LPIPS: 0.203** (mean across 50 held-out test images)
 
 | Metric | Value |
 |--------|-------|
