@@ -60,7 +60,7 @@ The pipeline employs face parsing using Segformer to segment images into five re
 
 Additional global degradations: geometric warp, bilateral surface blur, brightness variation, overall blur, desaturation, downscale/upscale, and noise.
 
-This is the first iteration of this approach, intended to demonstrate the concept and potential workflow. I based the degradation on splat artifacts that I have observed, but it would need further fine tuning and R&D to match the specific challenges from real Gaussian splat renders in the Signapse pipeline. I believe the quality and realism of training directly determine what the model can learn, regardless of training duration.
+This is the first iteration of this approach, intended to demonstrate the concept and potential workflow. I based the degradation on splat artefacts that I have observed. It would need further fine-tuning and R&D to match real Gaussian splat renders. With real avatar render pairs, as in ELITE, synthetic degradation would no longer be needed. I believe the quality of training data directly determines what the model can learn, regardless of training duration. 
 
 ### Training
 
