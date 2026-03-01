@@ -65,7 +65,7 @@ This is the first iteration of this approach, intended to demonstrate the concep
 ### Training
 
 - **Dataset**: 500 CelebA-HQ images (450 train, 50 test) at 512x512
-- **Hardware**: Personal EC2 instance with NVIDIA L4 GPU (48GB VRAM)
+- **Hardware**: Personal Amazon EC2 instance with NVIDIA L40S GPU (48GB VRAM)
 - **Steps**: 5000 (batch size 2, about 65 minutes)
 - **Optimizer**: AdamW, lr=5e-5, fp16 mixed precision
 - **Best checkpoint**: model_5000.pkl (val LPIPS: 0.202)
